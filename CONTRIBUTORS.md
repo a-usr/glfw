@@ -81,6 +81,7 @@ video tutorials.
  - Mário Freitas
  - Friz64
  - GeO4d
+ - a-usr
  - Marcus Geelnard
  - Gegy
  - ghuser404

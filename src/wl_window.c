@@ -1969,7 +1969,7 @@ static void keyboardHandleModifiers(void* userData,
 {
     _glfw.wl.serial = serial;
 
-    if (!_glfw.wl.xkb.keymap)
+    if (!_glfw.wl.xkb.keymap || !_glfw.wl.xkb.state)
         return;
 
     xkb_state_update_mask(_glfw.wl.xkb.state,

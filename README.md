@@ -152,6 +152,7 @@ information on what to include when reporting a bug.
  - [Wayland] Bugfix: The `libwayland-client` library was not unloaded at termination
  - [Wayland] Bugfix: Scroll events were sent twice on some versions of GNOME (#2494)
  - [Wayland] Bugfix: Two-dimensional scroll input was emitted as separate axes
+- [Wayland] Bugfix: Receiving a keyboardModifier event before the keymap event would cause a segmentation fault
  - [X11] Bugfix: Running without a WM could trigger an assert (#2593,#2601,#2631)
  - [X11] Bugfix: Occasional crash when an idle display awakes (#2766) 
  - [X11] Bugfix: Prevent BadWindow when creating small windows with a content scale
